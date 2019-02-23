@@ -1,0 +1,16 @@
+
+/**
+ * The main idea is to separate structural styles from themeable styles.
+ * 
+ * In this file we are going to have themeable styles susceptible to be changed.
+ */
+
+:host {
+    background: white;
+    border-color: darkgray;
+  }
+  
+  :host(.input-focus) {
+    border-color: #4D90FE;
+    box-shadow: 0px 0px 5px #4D90FE;
+  }
