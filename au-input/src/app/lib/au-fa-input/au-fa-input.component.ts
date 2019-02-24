@@ -30,7 +30,7 @@ export class AuFaInputComponent implements OnInit, AfterContentInit {
     return this.input ? this.input.focus : false;
   }
 
-  protected get classes() {
+   get classes() {
     const cssClasses = { };
 
     if (this.icon) {
