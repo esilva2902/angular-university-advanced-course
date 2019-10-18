@@ -1,6 +1,6 @@
 {
   "name": "au-tab-panel",
-  "version": "0.1.4-au-tab-panel.1",
+  "version": "0.1.4-au-tab-panel.2",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
