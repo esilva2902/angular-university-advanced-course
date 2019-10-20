@@ -13,7 +13,7 @@
         </div>
     </ng-template>
 
-    <au-tab-panel #tabPanel [header-template]="customHeader">
+    <au-tab-panel id="tab-panel" #tabPanel>
         <au-tab title="Login" #loginTab>
             <form>
                 <div class="form-field">
@@ -42,7 +42,7 @@
         <au-tab title="Contact" #contactTab>
             <form>
                 <div class="form-field">
-                    <label>Email:</label><input>
+                    <label>Email:</label><input class="contact-email">
                 </div>
                 <div class="form-field">
                     <label>Message:</label>
